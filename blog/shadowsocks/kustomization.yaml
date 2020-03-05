@@ -1,0 +1,10 @@
+commonLabels:
+  app: shadowsocks
+
+namespace: shadowsocks
+
+resources:
+- deployment.yaml
+- service.yaml
+- ingress.yaml
+- namespace.yaml
